@@ -1,6 +1,9 @@
 
+
+
 Git workshop
 ============
+
 
 Set up git client
 -----------------
@@ -39,3 +42,10 @@ git status
 
 
 What is he going to do next...
+<<<<<<< HEAD
+
+
+Just want to add my line. I did it..
+one more line
+======
+=
