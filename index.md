@@ -1,5 +1,9 @@
+
+
+
 Git workshop
 ============
+
 
 Set up git client
 -----------------
@@ -38,15 +42,10 @@ git status
 
 
 What is he going to do next...
-<<<<<<< .merge_file_Bd1txx
 <<<<<<< HEAD
 
 
 Just want to add my line. I did it..
 one more line
-=======
-=======
-
-
-Adding my line. I did it
->>>>>>> .merge_file_L4qcD6
+======
+=
