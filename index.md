@@ -1,4 +1,3 @@
-
 Git workshop
 ============
 
@@ -39,3 +38,6 @@ git status
 
 
 What is he going to do next...
+
+
+Adding my line. I did it
