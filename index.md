@@ -38,6 +38,10 @@ git status
 
 
 
-What is he going to do next...
+Removing files from staging / index
+-----------------------------------
+reset --soft HEAD^
 
-hes crazy
+To remove a file from the index
+-------------------------------
+git rm --cached peter.txt
