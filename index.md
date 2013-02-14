@@ -1,7 +1,6 @@
-
 Git workshop
 ============
-
+Changed by Raj
 Set up git client
 -----------------
 
