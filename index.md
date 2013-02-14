@@ -39,3 +39,5 @@ git status
 
 
 What is he going to do next...
+
+hes crazy
