@@ -38,4 +38,5 @@ git status
 
 
 
-What is he going to do next...
+Q: What is he going to do next..?
+A: I dont rightly know but I bet it has something to do with git or running from a grue!
