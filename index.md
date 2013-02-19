@@ -1,6 +1,6 @@
-
 Git workshop
 ============
+
 
 Git overview
 ------------
@@ -58,6 +58,7 @@ git init
 
 See what changes you have
 git status
+
 
 
 
