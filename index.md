@@ -87,3 +87,22 @@ If you have a pull request that cant be automatically merged.  A committer on th
 * merging any changes between their code and the original project
 
 Once any merge conflicts are resolved, the submitter of the pull request can do another commit locally and to their forked repository on github and that will update the pull request automatically.
+
+
+
+Collaborating with Git
+=======================================================
+
+Everyone has their own repository locally
+
+Everyone has their own local development environment - using their ide & foreman
+
+Developers can spin up another application on heroku as a different environment
+
+Use environment variables to manage different environments
+
+Branch & merge
+Rebasing (I dont like doing this on shared repos, your loosing tracability because you are rewriting history).
+
+
+Can use ... from labs to automatically deploy onto heroku from Github - probably dont want to do this for production - or at least make sure than anyone who triggers an automatic deploy knows that they are doing so.
