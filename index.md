@@ -102,6 +102,8 @@ To check what git configuration has already been set up (some gui clients add in
 
 In the git configuration you can set up aliases for commands and options you regularly use, or event call out to scripts.  You can also specify tools for merging and viewing *diffs* (differences between files and commits).  We will cover setting up aliases and other configuration options in secition ...
 
+Read the [official documentation on git customisation](http://git-scm.com/book/en/Customizing-Git-Git-Configuration) for more options.
+
 
 [Back to top...](#top)
 
