@@ -1,10 +1,23 @@
 <link href="index.css" rel="stylesheet" type="text/css">
 
-Git workshop
-============
+<a id="top">Git workshop</a>
+============================
+
+    Document Date: March 11, 2013
+    Document Home: http://git-and-github-workshop.herokuapp.com
 
 
-Git overview
+This workshop will give you an introduction to using the Git version control tool for managing changes to source code and configuration files.  It will also cover collaborating in teams using Github public repositories.
+
+* [Chapter 1: Git overview](#chapter1)
+* [Chapter 2: ](#chapter2)
+* [Chapter 3: ](#chapter3)
+* [Chapter 4: ](#chapter4)
+* [Chapter 5: ](#chapter5)
+* [Appendix A: Where to go next](#appendix-a)
+
+
+<a id="#chapter1">Git overview</a>
 ------------
 Git is a very powerful tool for managing changes in text files, such as source code and configuration files.  Binary files such as images and propriatory document formats benefit veri little from git.
 
@@ -24,7 +37,7 @@ Should you wish to work on the project you can create your own copy, called a fo
 
 Should you wish to submit your chages back to the original project, you can create a pull request from your fork.  A pull request is a message and one or more commits that are sent to the original project team, inviting them to pull in the changes from your forked repository.
 
-
+[Back to top...](#top)
 
 
 Choose your git client
@@ -52,6 +65,7 @@ The simplest graphical tools to install are from Github.  If you are browsing a 
 [Github client for Microsoft Windows]
 [SourceTree for Microsoft Windows] (in beta, not currently available)
 
+[Back to top...](#top)
 
 
 Create an account on Github
@@ -71,6 +85,8 @@ Rather than use your username and password, pubic key encryption can be used to 
 *You can create and add your public key uisng the excellent instructions on the gthub website*
 
 
+[Back to top...](#top)
+
 Git configuration
 -----------------
 There are several things you can add to your git configuration, but to start with the most important ones are your git user name and email so people know who is creating commits.  To add your username and email to git, either edit the ~/.gitconfig file or run the following two commands:
@@ -85,6 +101,8 @@ To check what git configuration has already been set up (some gui clients add in
 
 In the git configuration you can set up aliases for commands and options you regularly use, or event call out to scripts.  You can also specify tools for merging and viewing *diffs* (differences between files and commits).  We will cover setting up aliases and other configuration options in secition ...
 
+
+[Back to top...](#top)
 
 First version controlled project
 --------------------------------
@@ -165,6 +183,7 @@ If you have a pull request that cant be automatically merged.  A committer on th
 Once any merge conflicts are resolved, the submitter of the pull request can do another commit locally and to their forked repository on github and that will update the pull request automatically.
 
 
+[Back to top...](#top)
 
 Collaborating with Git
 ======================
@@ -190,64 +209,28 @@ Rebasing (I dont like doing this on shared repos, your loosing tracability becau
 Can use ... from labs to automatically deploy onto heroku from Github - probably dont want to do this for production - or at least make sure than anyone who triggers an automatic deploy knows that they are doing so.
 
 
-
-
-Notes from Tim Bergland talk at LJC event
------------------------------------------
-
-outline
-commit without commit
-
-normally would do git init
-instead going to create ljc with a .git folder
-created a script to show tree - refreshing every second as we are creating things in the .git folder
-
-mkdir .git/objects
-mkdir .git/refs/heads  -- refs are Symbolic pointers - a branch or tag name - refs are a general purpose namespace
-
-mkdir .git/HEAD --
-echo "refs: refs/master/HEAD"
-
-echo "some text" ¦ git hash-object --stdin -w
-
-
-Adding files
-when you add something using git add filename then a new object is created, if you make changes and then add that same file again, you get a new object (because the hash is based on the contents and the contents has changed).  The previous object will still be there but eventually orphaned.
+[Back to top...](#top)
 
 
 
 
-branch without branch
-checkout without checkout
-plumbing and procelain and Oinions
-Rebasing
-Interactive rebasing
-The reflog
-Pull requests
+additional topics
 
-
-
-
-course design
-
-    Git theory
-    Installing Git and setting up an environment
-    Configuration
     Repositories
     Commits
-    Viewing change sets
-    Branching and merging
-    Going back and fixing mistakes
-    Stashing
-    Rebasing
-    Cherry picking
-    Tags
+    Viewing changes
     Alias
+    Going forward to fix mistakes
+    Tags
     Remotes
-    Using a server like Github / Bitbucket / Codeplex
+    Github
+    Branching & merging - when to do it
+    Stashing
+    Rebasing is evil !!!
+    Cherry picking
+    Patches
     Bisect
     Rerere
     Blame
-    Patches
-    Day to day workflows
-    Using in Continuous Integration like TeamCity
+    Common workflows
+    Continuous Integration with Travis
