@@ -10,8 +10,8 @@
 This workshop will give you an introduction to using the Git version control tool for managing changes to source code and configuration files.  It will also cover collaborating in teams using Github public repositories.
 
 * [Chapter 1: Git overview](#chapter1)
-* [Chapter 2: ](#chapter2)
-* [Chapter 3: ](#chapter3)
+* [Chapter 2: Choose your git client](#chapter2)
+* [Chapter 3: Create an account on Github](#chapter3)
 * [Chapter 4: ](#chapter4)
 * [Chapter 5: ](#chapter5)
 * [Appendix A: Where to go next](#appendix-a)
@@ -40,8 +40,9 @@ Should you wish to submit your chages back to the original project, you can crea
 [Back to top...](#top)
 
 
-Choose your git client
-======================
+<a id="chapter2">Choose your git client</a>
+------------------------------------------
+
 For the workshop the command line will be used so you can focus on understanding the commands that are used.
 
 You can follow along with either a command line or graphical git tool.  Please note that installing a graphical tool for git should also provide git on the command line, so no need to install both!
@@ -68,7 +69,7 @@ The simplest graphical tools to install are from Github.  If you are browsing a 
 [Back to top...](#top)
 
 
-Create an account on Github
+<a id="chapter3">Create an account on Github</a>
 ---------------------------
 Git hub adds extra collaborate features over git, providing a *social coding* service which is an excellent resource for open source projects.
 
