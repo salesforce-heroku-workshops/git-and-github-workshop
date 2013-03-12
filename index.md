@@ -1,7 +1,7 @@
 <link href="index.css" rel="stylesheet" type="text/css">
 
-<a id="top">Git workshop</a>
-============================
+# <a id="top">Git workshop</a>
+
 
     Document Date: March 11, 2013
     Document Home: http://git-and-github-workshop.herokuapp.com
@@ -19,8 +19,8 @@ This workshop will give you an introduction to using the Git version control too
 * [Appendix A: Where to go next](#appendix-a)
 
 
-<a id="#chapter1">Git overview</a>
-------------
+# <a id="#chapter1">Git overview</a>
+
 Git is a very powerful tool for managing changes in text files, such as source code and configuration files.  Binary files such as images and propriatory document formats benefit veri little from git.
 
 Until recently most versioning tools for source code used a central model.  Tools like CVS and SVN manage code changes in a single central server, shared across teams and the whole company.  When developers work on code they only get a copy of current code locally on their development machine.  To actually do any commits to version the code then they have to connect with the server.  When looking at history and any other activitiy, developers have to communicate with the central server.
@@ -42,8 +42,8 @@ Should you wish to submit your chages back to the original project, you can crea
 [Back to top...](#top)
 
 
-<a id="chapter2">Choose your git client</a>
-------------------------------------------
+# <a id="chapter2">Choose your git client</a>
+
 
 For the workshop the command line will be used so you can focus on understanding the commands that are used.
 
@@ -71,8 +71,8 @@ The simplest graphical tools to install are from Github.  If you are browsing a 
 [Back to top...](#top)
 
 
-<a id="chapter3">Create an account on Github</a>
----------------------------
+# <a id="chapter3">Create an account on Github</a>
+
 Git hub adds extra collaborate features over git, providing a *social coding* service which is an excellent resource for open source projects.
 
 To create an account, go to www.github.com
@@ -90,8 +90,8 @@ Rather than use your username and password, pubic key encryption can be used to 
 
 [Back to top...](#top)
 
-<a id="chapter04">Identify yourself to Git</a>
------------------
+# <a id="chapter04">Identify yourself to Git</a>
+
 There are several things you can add to your git configuration, but to start with the most important ones are your git user name and email so people know who is creating commits.  To add your username and email to git, either edit the ~/.gitconfig file or run the following two commands:
 
     git config --global user.name "your name"
@@ -109,8 +109,8 @@ Read the [official documentation on git customisation](http://git-scm.com/book/e
 
 [Back to top...](#top)
 
-<a id="chapter05">Creating a Git version controlled project</a>
---------------------------------
+# <a id="chapter05">Creating a Git version controlled project</a>
+
 
 Create a new folder / project
 
@@ -148,22 +148,32 @@ Adding files to git is not the same as doing a commit.  With *git add* you are p
 To see what files are staged at any time, you use the *git status* command.
 
 
-<a id="chapter6">Ignoring files</a>
-===================================
+# <a id="chapter6">Ignoring files</a>
 
-When you do git status you may see Untracked files that you dont want to include.  These could be back up files you developer tools create or binary files that are generated from other files.  You can define filennames, folders and filename patterns that you always want to exclude.
+There are often files inside your project that you do not want to put into git, these typically includes
 
-All these exclusions go into a project file called my-project-folder/.gitignore
+* Backup files
+* Developer tool configurations
+* Compiled source code
+* Graphics, sound and video files
+* Binary document formats
+
+Telling Git to exclude these types of files will prevent them appearing in your git status as *untracked files* and help you focus on managing those files that should be versioned.
+
+You can your project exclusions using filennames, folders and filename patterns.  All these exclusions go into a project file called
+
+    my-project-folder/.gitignore
+
+To keep your project .gitignore file simple and focused on the project, any files and patterns you want to ignore that are created by your own development environment should be placed in a global ignore file, typically:
+
+    ~/.gitignore_global
+
+Github has a [large collection of .gitignore files](https://github.com/github/gitignore/) for different programming languages and tools.
 
 
-To keep your project .gitignore files relevant, any files and patterns you want to ignore that are created by your own development environment should be placed in a global ignore file, typically ~/.gitignore_global
 
+# <a id="chapter7">The local git workflow</a>
 
-
-
-
-<a id="chapter7">The local git workflow</a>
-=========================
 
 To recap, we have our working copy of our files on our laptop.  When we add those files using git, a copy is placed in what git calls Staging.  This allows you to assemble several files for the commit.
 
@@ -186,14 +196,16 @@ rolling back to the previous commit on the local repo
     git reset HEAD~1
 
 
-To remove a file from the index
--------------------------------
+## To remove a file from the index
+
 
     git rm --cached filename.txt
 
 
-Conflict resolution
--------------------
+
+
+# Conflict resolution - managing the merge process
+
 Sometimes when you merge the changes between one commit and another make it impossible to do this automatically.
 
 If you have a pull request that cant be automatically merged.  A committer on the project can offer suggestions on how the submitter can fix the pull request so it can be merged.  This typically includes
