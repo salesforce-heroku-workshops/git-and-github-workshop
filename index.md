@@ -12,8 +12,10 @@ This workshop will give you an introduction to using the Git version control too
 * [Chapter 1: Git overview](#chapter1)
 * [Chapter 2: Choose your git client](#chapter2)
 * [Chapter 3: Create an account on Github](#chapter3)
-* [Chapter 4: ](#chapter4)
-* [Chapter 5: ](#chapter5)
+* [Chapter 4: Creating a Git version controlled project](#chapter4)
+* [Chapter 5: Creating a Git version controlled project](#chapter5)
+* [Chapter 6: Ignoring files](#chapter6)
+* [Chapter 7: The local git workflow](#chapter7)
 * [Appendix A: Where to go next](#appendix-a)
 
 
@@ -88,7 +90,7 @@ Rather than use your username and password, pubic key encryption can be used to 
 
 [Back to top...](#top)
 
-Git configuration
+<a id="chapter04">Identify yourself to Git</a>
 -----------------
 There are several things you can add to your git configuration, but to start with the most important ones are your git user name and email so people know who is creating commits.  To add your username and email to git, either edit the ~/.gitconfig file or run the following two commands:
 
@@ -107,7 +109,7 @@ Read the [official documentation on git customisation](http://git-scm.com/book/e
 
 [Back to top...](#top)
 
-First version controlled project
+<a id="chapter05">Creating a Git version controlled project</a>
 --------------------------------
 
 Create a new folder / project
@@ -146,11 +148,26 @@ Adding files to git is not the same as doing a commit.  With *git add* you are p
 To see what files are staged at any time, you use the *git status* command.
 
 
+<a id="chapter6">Ignoring files</a>
+===================================
+
+When you do git status you may see Untracked files that you dont want to include.  These could be back up files you developer tools create or binary files that are generated from other files.  You can define filennames, folders and filename patterns that you always want to exclude.
+
+All these exclusions go into a project file called my-project-folder/.gitignore
 
 
-# Using the working directory and staging
+To keep your project .gitignore files relevant, any files and patterns you want to ignore that are created by your own development environment should be placed in a global ignore file, typically ~/.gitignore_global
 
-As you have a local repository right there on your laptop,
+
+
+
+
+<a id="chapter7">The local git workflow</a>
+=========================
+
+To recap, we have our working copy of our files on our laptop.  When we add those files using git, a copy is placed in what git calls Staging.  This allows you to assemble several files for the commit.
+
+As you have a local repository right there on your laptop, you can commit all the files you have added.  You can do small commits and do them often.  This helps reduce merge conflicts when working in teams and gives a clearer history of how the project has evolved.
 
 
 
