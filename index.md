@@ -177,11 +177,25 @@ Github has a [large collection of .gitignore files](https://github.com/github/gi
 
 To recap, we have our working copy of our files on our laptop.  When we add those files using git, a copy is placed in what git calls Staging.  This allows you to assemble several files for the commit.
 
-As you have a local repository right there on your laptop, you can commit all the files you have added.  You can do small commits and do them often.  This helps reduce merge conflicts when working in teams and gives a clearer history of how the project has evolved.
+As we have a local repository right there on our laptop, we can commit all the files added to the staging area.  If you can add a series of small commits and do this often, it gives you a more detaled version history and gives you more points to jump back in time.  Small commits helps to reduce merge conflicts when working in teams and gives a other developers lots of details about how the project has evolved.
+
+In this visual representation you can see the different git stages in which commits can reside.
+
+<img="git-cheat-sheet-visual-git-stages.png">
 
 
+## Understanding git add and the staging area
 
-https://help.github.com/articles/dealing-with-non-fast-forward-errors
+When you add a file, you are telling git that you want it to be part of the change you are going to commit.
+
+Lets say you create a new file with 10 lines of content and then use *git add filenname.ext* to add it to git.  Then you continue to add another 5 lines the contents of that file.  If you do a commit without adding that file to git again, only the first 10 lines of content will be in that commit.
+
+If you do a second *git add filenname.ext* before you commit, then all 15 lines of content will be included in the commit.
+
+Having to add changes in this way helps you control exactly what makes up your commit without restricting the files you are working on.  Please note that it is advisable to either git add & git commit often so that your changes form part of a meaningful history.
+
+
+## What has been added - What has changed (using diff)
 
 
 
@@ -229,6 +243,15 @@ Developers can spin up another application on heroku as a different environment.
 Using git log --decorate you can see the relative progression of your changes as commits to each repositories.
 
 When you are working with multiple heroku applications, then using environment variables will allow you to manage resource configuration in each environment.  Hard coding configuration information in your application will not lead to a very secure, stable or scalable application.
+
+
+
+Keeping up to date with changes
+
+https://help.github.com/articles/dealing-with-non-fast-forward-errors
+
+
+
 
 Branch & merge
 --------------
