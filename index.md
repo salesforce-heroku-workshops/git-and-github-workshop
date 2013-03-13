@@ -62,11 +62,11 @@ If you have Ubuntu, then you can use the Ubuntu software center or install git o
 
 The simplest graphical tools to install are from Github.  If you are browsing a repository on www.github.com you will notice a "Clone in Mac" or "Clone in Windows" button at the top left of the page.  Pressing this will send you to a page offering to install the Github graphical git client for you.
 
-[Github client for MacOSX]
-[SourceTree for MacOSX]
+[Github client for MacOSX](http://mac.github.com/)
+[SourceTree for MacOSX](http://www.sourcetreeapp.com/)
 
-[Github client for Microsoft Windows]
-[SourceTree for Microsoft Windows] (in beta, not currently available)
+[Github client for Microsoft Windows](http://windows.github.com/)
+[SourceTree for Microsoft Windows](http://blog.bitbucket.org/2013/02/14/sourcetree-for-windows-beta-signup/) (in beta, not currently available)
 
 [Back to top...](#top)
 
