@@ -60,13 +60,12 @@ If you have Ubuntu, then you can use the Ubuntu software center or install git o
 
 *GUI tools*
 
-The simplest graphical tools to install are from Github.  If you are browsing a repository on www.github.com you will notice a "Clone in Mac" or "Clone in Windows" button at the top left of the page.  Pressing this will send you to a page offering to install the Github graphical git client for you.
+The simplest graphical tools to install are from Github.  If you browse any repository on [www.github.com](https://www.github.com) you will notice a "Clone in Mac" or "Clone in Windows" button at the top left of the page.  If you have not Git tool installed, then you are redirected to a page offering to install the Github graphical git client for you.
 
 [Github client for MacOSX](http://mac.github.com/)
+[Github client for Microsoft Windows](http://windows.github.com/)
 [SourceTree for MacOSX](http://www.sourcetreeapp.com/)
 
-[Github client for Microsoft Windows](http://windows.github.com/)
-[SourceTree for Microsoft Windows](http://blog.bitbucket.org/2013/02/14/sourcetree-for-windows-beta-signup/) (in beta, not currently available)
 
 [Back to top...](#top)
 
@@ -194,6 +193,17 @@ Having to add changes in this way helps you control exactly what makes up your c
 
 
 ## What has been added - What has changed (using diff)
+
+Once you have added files to the staging area with *git add*, you can compare any changes made to files in your workspace.  Using git diff you can see all changes or specifying a file will show only the differences in that one file.
+
+    git diff
+    git diff filename
+
+You can also compare the files you have added to the staging area to those you have committed using the diff option *--staging*
+
+    git diff --staging
+    git diff --staging filename
+
 
 
 
