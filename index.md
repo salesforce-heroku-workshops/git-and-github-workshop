@@ -142,8 +142,7 @@ To add all untracked files
 
     git add .
 
-
-Adding files to git is not the same as doing a commit.  With *git add* you are preparing one or more files to be committed.  When you add a file, it is placed in what is called staging (or the index).  Staging files is a useful way to group changes over multiple files to make a meaningful commit.
+Adding files to git is not the same as doing a commit.  With *git add* you are preparing one or more files to be committed.  When you add a file, it is placed in what is called staging (or the index).  Staging files is a useful way to group changes over multiple files to make a meaningful commit.  In [Chapter 7 - the local git workflow](#chapter07), we will cover staging and other steps in Git.
 
 To see what files are staged at any time, you use the *git status* command.
 
@@ -158,13 +157,13 @@ There are often files inside your project that you do not want to put into git, 
 * Graphics, sound and video files
 * Binary document formats
 
-Telling Git to exclude these types of files will prevent them appearing in your git status as *untracked files* and help you focus on managing those files that should be versioned.
+Telling Git to exclude these types of files will prevent them appearing in your git status report as *untracked files* and help you focus on managing those files that should be versioned.
 
-You can your project exclusions using filennames, folders and filename patterns.  All these exclusions go into a project file called
+You can add your project exclusions using filennames, folders and filename patterns.  All these exclusions go into a project file called
 
     my-project-folder/.gitignore
 
-To keep your project .gitignore file simple and focused on the project, any files and patterns you want to ignore that are created by your own development environment should be placed in a global ignore file, typically:
+To keep your project .gitignore file simple and focused on the project, any files and patterns you want to ignore that are created by your own development environment (IDE, build tools, etc.) should be placed in a global ignore file, typically:
 
     ~/.gitignore_global
 
@@ -174,10 +173,9 @@ Github has a [large collection of .gitignore files](https://github.com/github/gi
 
 # <a id="chapter7">The local git workflow</a>
 
-
 To recap, we have our working copy of our files on our laptop.  When we add those files using git, a copy is placed in what git calls Staging.  This allows you to assemble several files for the commit.
 
-As we have a local repository right there on our laptop, we can commit all the files added to the staging area.  If you can add a series of small commits and do this often, it gives you a more detaled version history and gives you more points to jump back in time.  Small commits helps to reduce merge conflicts when working in teams and gives a other developers lots of details about how the project has evolved.
+As we have a local repository right there on our laptop, we can commit all the files added to the staging area.  If you can add a series of small commits and do this often, it gives you a more detaled version history and gives you more points to jump back in time.  Regular commits helps to reduce merge conflicts when working in teams and using smaller commits gives other developers lots of details about how the project has evolved.
 
 In this visual representation you can see the different git stages in which commits can reside.
 
