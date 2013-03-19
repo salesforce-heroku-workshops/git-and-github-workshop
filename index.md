@@ -3,8 +3,8 @@
 # <a id="top">Git workshop</a>
 
 
-    Last update: March 11, 2013
-    Workshop website: http://git-and-github-workshop.herokuapp.com
+    Last update: March 19, 2013
+    Workshop website: [http://git-and-github-workshop.herokuapp.com](http://git-and-github-workshop.herokuapp.com)
 
 
 This workshop will give you an introduction to using the Git version control tool for managing changes to source code and configuration files.  It will also cover collaborating in teams using Github public repositories.
