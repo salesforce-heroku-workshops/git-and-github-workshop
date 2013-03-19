@@ -181,7 +181,7 @@ As we have a local repository right there on our laptop, we can commit all the f
 
 In this visual representation you can see the different git stages in which commits can reside.
 
-<img="git-cheat-sheet-visual-git-stages.png">
+<img="images/git-cheat-sheet-visual-git-stages.png">
 
 
 ## Understanding git add and the staging area
