@@ -12,7 +12,7 @@ This workshop will give you an introduction to using the Git version control too
 * [Chapter 1: Git overview](#chapter1)
 * [Chapter 2: Choose your git client](#chapter2)
 * [Chapter 3: Create an account on Github](#chapter3)
-* [Chapter 4: Creating a Git version controlled project](#chapter4)
+* [Chapter 4: Identify yourself to Git](#chapter4)
 * [Chapter 5: Creating a Git version controlled project](#chapter5)
 * [Chapter 6: Ignoring files](#chapter6)
 * [Chapter 7: The local git workflow](#chapter7)
@@ -152,6 +152,9 @@ Adding files to git is not the same as doing a commit.  With *git add* you are p
 To see what files are staged at any time, you use the *git status* command.
 
 
+[Back to top...](#top)
+
+
 # <a id="chapter6">Ignoring files</a>
 
 There are often files inside your project that you do not want to put into git, these typically includes
@@ -173,6 +176,9 @@ To keep your project .gitignore file simple and focused on the project, any file
     ~/.gitignore_global
 
 Github has a [large collection of .gitignore files](https://github.com/github/gitignore/) for different programming languages and tools.
+
+
+[Back to top...](#top)
 
 
 
@@ -232,6 +238,8 @@ rolling back to the previous commit on the local repo
 
 
 
+
+
 # Conflict resolution - managing the merge process
 
 Sometimes when you merge the changes between one commit and another make it impossible to do this automatically.
@@ -264,6 +272,9 @@ Keeping up to date with changes
 
 https://help.github.com/articles/dealing-with-non-fast-forward-errors
 
+
+
+[Back to top...](#top)
 
 
 
