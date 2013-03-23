@@ -21,19 +21,21 @@ This workshop will give you an introduction to using the Git version control too
 
 # <a id="#chapter1">Git overview</a>
 
-Git is a very powerful tool for managing changes in text files, such as source code and configuration files.  Binary files such as images and propriatory document formats benefit veri little from git.
+Git is a very powerful tool for managing the changes you make as you develop a software projects.  Typically those changes tracked are the ones made to source code and configuration files.  Git understands how to merge text files together, allowing you to pull in changes from others.  It also helps you compare changes in different versions of text files using the diff tool.
 
-Until recently most versioning tools for source code used a central model.  Tools like CVS and SVN manage code changes in a single central server, shared across teams and the whole company.  When developers work on code they only get a copy of current code locally on their development machine.  To actually do any commits to version the code then they have to connect with the server.  When looking at history and any other activitiy, developers have to communicate with the central server.
+You can also manage binary files such as images and propriatory document formats, although git does not typically come with tools that help you merge or compare differences.
 
-Git uses a distributed approach to managing changes (as does bazar & mercurial).  This may seem more complicated at first, but adds far more power and flexibility.
+Before the creation of Git (and Mercurial, Bazar and a few others), most versioning tools for source code used what is called a central model.  Tools like CVS and SVN manage code changes in a single central server, shared across teams and the whole company.  When developers work on code they only get a copy of current code locally on their development machine.  To actually do any commits, to version the code, then they have to connect with the server.  When looking at history and any other activitiy, developers have to communicate with the central server.  If this server is off line or slow, then this can lead to problems working effectively together as a team.
 
-A distributed model means that everyone involved gets a complete copy of the project repository.  It is still common to have a shared repository that holds all the code, although this can easily be changed and may evolve over time.
+Git uses a distributed approach to managing changes (as does bazar & mercurial).  This approach may seema little more complicated at first, but adds far more control and visiblity to your projects.
 
-Using Git, developers create a copy of a project repository on their development machine, this is called cloning.  This creates a local copy of the repository, including all the code changes and full history.
+A distributed model means that everyone involved gets a complete copy of the project repository.  It is still common to have a shared repository that holds all the code (e.g. on Github), although this can easily be changed and may evolve over time.
 
-One of the benefits of git therefore is to be able to constantly commit changes, regardless of if you are connected to a shared repository.  You commit all your changes locally first (even if you are connected) and then when ready push your changes to a shared repository.
+Using Git, developers create a copy of a project repository on their development machine, this is called *cloning*.  This creates a local copy of the repository along with all the files managed by git in your project.  As you have a local repository, all the code changes that  have ever been made are right there giving you a full history of the project.
 
-It is common to have a common shared repository that is seen as the canonical version of the code of a project.  The core members of the project team have direct access to update the code (committers).  Anyone with access to the project repository can take a copy (clone).
+One of the benefits of git therefore is to be able to constantly commit changes, regardless of if you are connected to a shared repository.  You commit all your changes locally first (even if you are connected) and then when ready you can push your changes to a shared repository.
+
+It is common to have a common shared repository that is seen as the canonical version of the code for a project.  The core members of the project team, refered to as *committers* have direct access to update this shared repository.  Anyone with access to the project repository can take a copy (clone).
 
 Should you wish to work on the project you can create your own copy, called a fork.  Your fork is your own exact copy of the oringinal repository, including all the history.  As this is your repository, you can commit changes directly.
 
