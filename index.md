@@ -10,8 +10,8 @@
 This workshop will give you an introduction to using the Git version control tool for managing changes to source code and configuration files.  It will also cover collaborating in teams using Github public repositories.
 
 * [Chapter 1: Git overview](#chapter1)
-* [Chapter 2: Choose your git client](#chapter2)
-* [Chapter 3: Create an account on Github](#chapter3)
+* [Chapter 2: Choose your git client](chapter2-choose-your-git-client.html)
+* [Chapter 3: Create an account on Github](chapter3-create-accont-on-github.html)
 * [Chapter 4: Identify yourself to Git](#chapter4)
 * [Chapter 5: Creating a Git version controlled project](#chapter5)
 * [Chapter 6: Ignoring files](#chapter6)
@@ -44,58 +44,6 @@ Should you wish to submit your chages back to the original project, you can crea
 [Back to top...](#top)
 
 
-# <a id="chapter2">Choose your git client</a>
-
-
-For the workshop the command line will be used so you can focus on understanding the commands that are used.
-
-You can follow along with either a command line or graphical git tool.  Please note that installing a graphical tool for git should also provide git on the command line, so no need to install both!
-
-*Command Line tools*
-
-You can simply install the git command line tools from [www.git-scm.com](http://www.gitscm.com).
-
-If you have Ubuntu, then you can use the Ubuntu software center or install git on the command line
-
-    apt-get install git
-
-
-*GUI tools*
-
-The simplest graphical tools to install are from Github.  If you browse any repository on [www.github.com](https://www.github.com) you will notice a "Clone in Mac" or "Clone in Windows" button at the top left of the page.  If you have not Git tool installed, then you are redirected to a page offering to install the Github graphical git client for you.
-
-[Github client for MacOSX](http://mac.github.com/)
-[Github client for Microsoft Windows](http://windows.github.com/)
-[SourceTree for MacOSX](http://www.sourcetreeapp.com/)
-
-
-[Back to top...](#top)
-
-
-# <a id="chapter3">Create an account on Github</a>
-
-Git hub adds extra collaboration features over git, providing a *social coding* service which is an excellent resource for working on projects as a team and running open source projects.  Anyone can get a copy of code (clone) in your public repositories, whether or not they have an account on Github.  You don't need any access permissions to do so.
-
-If you want to work on a project where you are not a collaborator, you can fork a repository and either develop using that new repository yourself or create pull requests that are sent to the collaborators of the original project.
-
-* Forking a repository - creates a new github repositiory for you from a github repository owned by another person or organisation. You have full commit access to this new repository, because its owned by you.
-
-* Creating a pull request - sends a message to the committers on the original project (the one you forked), inviting them to pull your changes into their project.
-
-To create a free account on Github, go to [www.github.com](https://www.github.com) and follow the instructions.
-
-
-## Make committing code easier - upload your public key
-
-Any time you send code to github it is done over a secure connection and therefore you have to identify yourself.  This means you either have to enter your username / password frequently or add those details to your IDE (eg. Eclipse, Intellij, Netbeans, etc.), which may save them as plan text.
-
-Rather than use your username and password, pubic key encryption can be used to identify yourself to github (and other services like [heroku](http://www.heroku.com)).  Once you have added the public key to github, every time you connect to github then that key is used to automatically identify you.
-
-You can create and add your public key using the [excellent instructions on the gthub website](https://help.github.com/articles/generating-ssh-keys)
-
-If you have already set up Heroku Toolbelt and used the command *heroku login* then you may already have a public key.  The key that heroku created can also be used for github, assuming you have used the same email address for both accounts.
-
-[Back to top...](#top)
 
 
 # <a id="chapter04">Identify yourself to Git</a>
