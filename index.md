@@ -14,7 +14,7 @@ This workshop will give you an introduction to using the Git version control too
 * [Chapter 3: Create an account on Github](chapter3-create-accont-on-github.html)
 * [Chapter 4: Identify yourself to Git](chapter04-identify-yourself-to-git.html)
 * [Chapter 5: Creating a Git managed project](chapter05-git-managed-project.html)
-* [Chapter 6: Ignoring files](#chapter6)
+* [Chapter 6: Ignoring files](chapter6-ingnoring-files.html)
 * [Chapter 7: The local git workflow](#chapter7)
 * [Appendix A: Where to go next](#appendix-a)
 
@@ -48,31 +48,6 @@ Should you wish to submit your chages back to the original project, you can crea
 
 
 
-
-# <a id="chapter6">Ignoring files</a>
-
-There are often files inside your project that you do not want to put into git, these typically includes
-
-* Backup files
-* Developer tool configurations
-* Compiled source code
-* Graphics, sound and video files
-* Binary document formats
-
-Telling Git to exclude these types of files will prevent them appearing in your git status report as *untracked files* and help you focus on managing those files that should be versioned.
-
-You can add your project exclusions using filennames, folders and filename patterns.  All these exclusions go into a project file called
-
-    my-project-folder/.gitignore
-
-To keep your project .gitignore file simple and focused on the project, any files and patterns you want to ignore that are created by your own development environment (IDE, build tools, etc.) should be placed in a global ignore file, typically:
-
-    ~/.gitignore_global
-
-Github has a [large collection of .gitignore files](https://github.com/github/gitignore/) for different programming languages and tools.
-
-
-[Back to top...](#top)
 
 
 
