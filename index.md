@@ -1,8 +1,8 @@
 <link href="index.css" rel="stylesheet" type="text/css">
 
-# <a id="top">Git workshop</a>
+# <a id="top">Git & Github tutorial</a>
 
-This workshop will give you an introduction to using the Git version control tool for managing changes to source code and configuration files.  It will also cover collaborating in teams using Github public repositories.
+This tutorial will give you an introduction to using the Git version control tool, commonly used to managing changes to source code and configuration files in projects.  The tutorial also covers collaborating in teams using Github public repositories.
 
 * [Chapter 1: Git overview](#chapter1)
 * [Chapter 2: Choose your git client](chapter02-choose-your-git-client.html)
