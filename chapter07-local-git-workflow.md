@@ -1,3 +1,5 @@
+<link href="index.css" rel="stylesheet" type="text/css">
+
 # <a id="chapter7">The local git workflow</a>
 
 To recap, we have our working copy of our files on our laptop.  When we add those files using git, a copy is placed in what git calls Staging.  This allows you to assemble several files for the commit.

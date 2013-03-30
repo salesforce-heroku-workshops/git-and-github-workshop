@@ -1,3 +1,5 @@
+<link href="index.css" rel="stylesheet" type="text/css">
+
 # <a id="top">Creating a Git version controlled project</a>
 
 Create a new folder / project by either creating the project structure yourself or using a build tool to create it for you:

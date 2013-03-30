@@ -1,3 +1,5 @@
+<link href="index.css" rel="stylesheet" type="text/css">
+
 # <a id="top">Identify yourself to Git</a>
 
 There are lots of useful things to add to your git configuration.  The most important thing is to set up your git user name and email, so people know who is creating commits.  To add your username and email to git, either edit the ~/.gitconfig file or run the following two commands:

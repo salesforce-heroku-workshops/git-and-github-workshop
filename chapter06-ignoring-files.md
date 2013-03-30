@@ -1,3 +1,5 @@
+<link href="index.css" rel="stylesheet" type="text/css">
+
 # <a id="top">Ignoring files</a>
 
 There are often files inside your project that you do not want to put into git, these typically includes
