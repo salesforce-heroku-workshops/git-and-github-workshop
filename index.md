@@ -10,11 +10,11 @@
 This workshop will give you an introduction to using the Git version control tool for managing changes to source code and configuration files.  It will also cover collaborating in teams using Github public repositories.
 
 * [Chapter 1: Git overview](#chapter1)
-* [Chapter 2: Choose your git client](chapter2-choose-your-git-client.html)
-* [Chapter 3: Create an account on Github](chapter3-create-accont-on-github.html)
+* [Chapter 2: Choose your git client](chapter02-choose-your-git-client.html)
+* [Chapter 3: Create an account on Github](chapter03-create-account-on-github.html)
 * [Chapter 4: Identify yourself to Git](chapter04-identify-yourself-to-git.html)
-* [Chapter 5: Creating a Git managed project](chapter05-git-managed-project.html)
-* [Chapter 6: Ignoring files](chapter06-ingnoring-files.html)
+* [Chapter 5: Creating a Git managed project](chapter05-creating-a-git-managed-project.html)
+* [Chapter 6: Ignoring files](chapter06-ignoring-files.html)
 * [Chapter 7: The local git workflow](chapter07-local-git-workflow.html)
 * [Appendix A: Where to go next](#appendix-a)
 
