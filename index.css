@@ -2,8 +2,6 @@ body {
   font-family: Helvetica, arial, freesans, clean, sans-serif;
   font-size: 14px;
   line-height: 130%;
-  width: 80%;
-  margin: 10%
   background-image:url('images/git-logo-240x100.png');
   background-repeat:no-repeat;
   background-position:right top;
@@ -12,7 +10,9 @@ body {
 
 body > p {
   width: 80%;
-}
+  margin-left: 20px;
+  margin-right: 20px;
+ }
 
 pre, code {
   font-size: 13px;
@@ -39,8 +39,8 @@ pre {
   border-top-width: 1px;
   color: #333;
   margin-bottom: 15px;
-  margin-left: 0px;
-  margin-right: 0px;
+  margin-left: 20px;
+  margin-right: 30px;
   margin-top: 15px;
   overflow-x: auto;
   overflow-y: auto;
