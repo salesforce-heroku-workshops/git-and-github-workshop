@@ -2,10 +2,15 @@ body {
   font-family: Helvetica, arial, freesans, clean, sans-serif;
   font-size: 14px;
   line-height: 130%;
+  width: 90%;
+  background-image:url('images/git-logo.png');
+  background-repeat:no-repeat;
+  background-position:right top;
+  margin-right:240px;
 }
 
 body > p {
-  width: 95%;
+  width: 85%;
 }
 
 pre, code {
@@ -68,7 +73,7 @@ pre > code {
   body {
     font-family: serif;
   }
-  pre { 
+  pre {
     overflow-x: visible;
     overflow-y: visible;
     width: 98%;
