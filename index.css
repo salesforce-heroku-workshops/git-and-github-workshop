@@ -2,7 +2,7 @@ body {
   font-family: Helvetica, arial, freesans, clean, sans-serif;
   font-size: 14px;
   line-height: 130%;
-  width: 90%;
+  width: 80%;
   background-image:url('images/git-logo-240x100.png');
   background-repeat:no-repeat;
   background-position:right top;
@@ -10,7 +10,7 @@ body {
 }
 
 body > p {
-  width: 85%;
+  width: 80%;
 }
 
 pre, code {
