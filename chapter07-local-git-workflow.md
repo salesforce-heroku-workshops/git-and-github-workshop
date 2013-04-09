@@ -54,6 +54,44 @@ rolling back to the previous commit on the local repo
     git rm --cached filename.txt
 
 
+# Working with commits - git log, git show
+
+Once you have done a commit and there are no more changes in your working directory or staging area, then *git status* no longer tells you anything.  This is where *git log* comes in.
+
+## git log
+Git log shows you the history of the commits you have already made.
+
+    git log
+
+By default, git log has a very basic output and shows you the commit number, author, date and commit message.  You can add options to the git log command to get a much nicer and more useful output, even showing which commits have been pushed to one or more remote repositories. 
+
+    git log --graph --oneline --decorate
+
+You can add this to your git configuration as an alias so you dont have to type it all the time
+
+    git config --global alias.unstage 'log --graph --oneline --decorate'
+
+
+### Blogs on this subject
+* [Git basic tips and tricks](http://git-scm.com/book/en/Git-Basics-Tips-and-Tricks)
+* [Must have alias examples](http://durdn.com/blog/2012/11/22/must-have-git-aliases-advanced-examples/)
+
+
+## git show
+Shows you whats inside a commit (and tags, blobs, etc).  By default it shows the log message and textual diff of the text that was modified in the commit. 
+
+For tags, it shows the tag message and the referenced objects.
+
+The command takes options applicable to the git diff-tree command to control how the changes the commit introduces are shown.
+
+[TODO] what are the options for git show 
+
+    git show
+    git show HEAD
+    git show 1234567
+    git show tag-name
+
+Using git show without specifying a commit number or tag will show you the latest commit from the branch you are currently in.  This is usually the same information in *git show HEAD* as HEAD is a special tag that always points to the latest commit.
 
 [Back to top...](#top)
 
