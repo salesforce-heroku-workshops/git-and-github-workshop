@@ -11,7 +11,12 @@ This tutorial will give you an introduction to using the Git version control too
 * [Chapter 5: Creating a Git managed project](chapter05-creating-a-git-managed-project.html)
 * [Chapter 6: Ignoring files](chapter06-ignoring-files.html)
 * [Chapter 7: The local git workflow](chapter07-local-git-workflow.html)
+* [Chapter 8: ](chapter08-conflict-resolution.html)
+* [Chapter 9: ](chapter09-branch-and-merge.html)
+* [Chapter 10: ](chapter10-collaborating-with-github.html)
 * [Appendix A: Where to go next](#appendix-a)
+
+Chaper 1 is below and all other chapters are on their own page.
 
 
 # <a id="#chapter1">Git overview</a>
