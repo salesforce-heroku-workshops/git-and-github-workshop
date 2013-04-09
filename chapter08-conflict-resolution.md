@@ -1,16 +1,15 @@
 <link href="index.css" rel="stylesheet" type="text/css">
 
-# Conflict resolution - managing the merge process
+# <a id="top">Conflict resolution - managing the merge process</a>
 
 During the development of your project you will make many changes to your files.  If you follow the "commit early, commit often" idea, then most of your commits should be straight forward.
 
 Git is very good at merging changes together, although it has its limitations.
 
-The longer you leave a change to be commited or the bigger the change is you are making (especially to existing files), the more likely you will have to manage the merge process yourself.
+The longer you leave a change to be commited or the bigger the change is you are making (especially to existing files), the more likely you will have to manage the merge process yourself.  
+  
 
-
-
-## A common merge conflice with Github
+## A common merge conflict with Github
 
 When you create a new repository on Github you are given the choice of creating a Readme.md file and a .gitignore file for one of numerous languages.  These are both really useful things to have.
 
@@ -29,6 +28,8 @@ Assuming you did not create a Readme.md or .gitignore file locally, then when yo
 
 If you already had either the Readme.md file or .gitignore file locally, when you do a git pull the text from both versions of the file will be combined, with <<<<<<<<<<<<<< >>>>>>>>>> markers denoting which text comes from which version .
 
+There is also a nice page on [Github help on dealing with non fast-forward errors](https://help.github.com/articles/dealing-with-non-fast-forward-errors
+).  
 
 
 ## Working with pull requests
@@ -38,3 +39,8 @@ If you have a pull request that cant be automatically merged.  A committer on th
 * merging any changes between their code and the original project
 
 Once any merge conflicts are resolved, the submitter of the pull request can do another commit locally and to their forked repository on github and that will update the pull request automatically.
+
+
+[Back to top...](#top)
+
+[Workshop homepage](index.html)
