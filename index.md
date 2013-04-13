@@ -48,4 +48,6 @@ Last update: March 19, 2013
 
 Online tutorial: [http://git-and-github-workshop.herokuapp.com](http://git-and-github-workshop.herokuapp.com)
 
-Github repository: [[http://git-and-github-workshop.herokuapp.com](http://git-and-github-workshop.herokuapp.com)]([http://git-and-github-workshop.herokuapp.com](http://git-and-github-workshop.herokuapp.com)) - pull requests welcome :)
+Github repository: [http://git-and-github-workshop.herokuapp.com](http://git-and-github-workshop.herokuapp.com) - pull requests welcome :)
+
+[StarLogs.net demo with this workshop](http://starlogs.net/#salesforce-heroku-workshops/git-and-github-workshop)
