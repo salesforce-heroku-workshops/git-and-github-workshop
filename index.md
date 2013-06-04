@@ -15,8 +15,8 @@ This tutorial will give you an introduction to using the Git version control too
 * [Chapter 9: Branching and Merging](chapter09-branch-and-merge.html)
 * [Chapter 10: Collaborating with Github](chapter10-collaborating-with-github.html)
 * [Appendix A: Where to go next](#appendix-a)
-* [https://na1.salesforce.com/help/doc/en/salesforce_git_developer_cheatsheet.pdf](Git commands cheat sheet)
-* [http://ndpsoftware.com/git-cheatsheet.html](Git Visual cheat sheet)
+* [Git commands cheat sheet](https://na1.salesforce.com/help/doc/en/salesforce_git_developer_cheatsheet.pdf)
+* [Git Visual cheat sheet](http://ndpsoftware.com/git-cheatsheet.html)
 
 Chapter 1 is below and all other chapters are on their own page.
 
