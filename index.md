@@ -15,13 +15,15 @@ This tutorial will give you an introduction to using the Git version control too
 * [Chapter 9: Branching and Merging](chapter09-branch-and-merge.html)
 * [Chapter 10: Collaborating with Github](chapter10-collaborating-with-github.html)
 * [Appendix A: Where to go next](#appendix-a)
+* [https://na1.salesforce.com/help/doc/en/salesforce_git_developer_cheatsheet.pdf](Git commands cheat sheet)
+* [http://ndpsoftware.com/git-cheatsheet.html](Git Visual cheat sheet)
 
-Chaper 1 is below and all other chapters are on their own page.
+Chapter 1 is below and all other chapters are on their own page.
 
 
 # <a id="#chapter1">Git overview</a>
 
-Git is a very powerful tool for managing the changes you make as you develop a software projects.  Typically those changes tracked are the ones made to source code and configuration files.  Git understands how to merge text files together, allowing you to pull in changes from others.  It also helps you compare changes in different versions of text files using the diff tool.
+Git is a very powerful tool for managing the changes you make as you develop source code for your software projects.  Typically those changes tracked are the ones made to source code and configuration files.  Git understands how to merge text files together, allowing you to pull in changes from others.  It also helps you compare changes in different versions of text files using the diff tool.
 
 You can also manage binary files such as images and propriatory document formats, although git does not typically come with tools that help you merge or compare differences.
 
