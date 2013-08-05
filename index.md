@@ -18,7 +18,6 @@ This tutorial will give you an introduction to using the Git version control too
 * [Git commands cheat sheet](https://na1.salesforce.com/help/doc/en/salesforce_git_developer_cheatsheet.pdf)
 * [Git Visual cheat sheet](http://ndpsoftware.com/git-cheatsheet.html)
 
-# Overview of the Git & Github developer workflow
 
 <img src="images/git-and-github-workflow.png">
 
